@@ -1,0 +1,19 @@
+{
+ "country": "IQ",
+ "acts": [
+  {
+   "slug": "constitution",
+   "short": "Constitution",
+   "title": "دستور جمهورية العراق لعام 2005",
+   "url": "https://www.wipo.int/wipolex/ar/legislation/details/10027",
+   "versions": [
+    {
+     "from": "2005-12-28",
+     "units": 145,
+     "source_url": "https://law.mu.edu.iq/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1-%D8%AC%D9%85%D9%87%D9%88%D8%B1%D9%8A%D8%A9-%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82-%D9%84%D8%B3%D9%86%D8%A9-2005/",
+     "sha256": "5ccefe43de752444f4464adbba09e3a85a7008a9cd9729dfb9fe6e24e56520b2"
+    }
+   ]
+  }
+ ]
+}
