@@ -1,5 +1,7 @@
 # Iraq: law history in git
 
+Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git history for every country's law: this is Iraq's national law, which global-law reads at `iraq/national/acts/`.
+
 The Constitution of the Republic of Iraq of 2005 as a git repository: the preamble and Articles 1 to 144, one file each, one paragraph per line, so `git blame` and `git diff` work line by line.
 
 **Language: Arabic**, the official text. The English translations of the Constitution are not used.
