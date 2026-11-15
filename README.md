@@ -24,7 +24,8 @@ The text is in Arabic, as the Gazette published it, with the vowel marks of the 
 
 - **[Ask Claude about Iraqi law](https://global-law.lexifina.com/v1/try_claude?country=iraq)**: opens Claude with a first question ready.
 - **[Ask ChatGPT](https://global-law.lexifina.com/v1/try_chatgpt?country=iraq)**: the same question in ChatGPT.
-- **[Call the API in your browser](https://global-law.lexifina.com/v1/search_law?query=%D8%AD%D8%B1%D9%8A%D8%A9+%D8%A7%D9%84%D8%AA%D8%B9%D8%A8%D9%8A%D8%B1&jurisdictions=iraq)**: a search of Iraqi law for "حرية التعبير" (freedom of expression), returned as JSON. See the [documentation here](https://lexifina.com/api/global-law).
+- **[Search Iraqi law on our site](https://lexifina.com/law?country=iraq&q=%D8%AD%D8%B1%D9%8A%D8%A9+%D8%A7%D9%84%D8%AA%D8%B9%D8%A8%D9%8A%D8%B1)**: a search for "حرية التعبير" (freedom of expression), with each provision's text and its versions, no account needed.
+- **[Developer REST API](https://global-law.lexifina.com/v1/search_law?query=%D8%AD%D8%B1%D9%8A%D8%A9+%D8%A7%D9%84%D8%AA%D8%B9%D8%A8%D9%8A%D8%B1&jurisdiction=iraq)**: the same search as JSON, with no key. See the [documentation here](https://lexifina.com/api/global-law).
 
 Both assistants read the record through the free Global law connector (MCP, `https://global-law.lexifina.com/mcp`); the first time, the chat gives you the link that adds it. Ask in Arabic or in English.
 
