@@ -58,6 +58,7 @@ The version is credited to the Constitution itself (`Constitution of Iraq 2005`,
 - The text was compared with a second, retyped copy (Arabic Wikisource) and with a scan of the Gazette itself (WIPO Lex), read with OCR as a check only; no OCR text is published. Ignoring vowel marks and hamza forms, the two copies agree on 115 of 144 articles; of the 29 that differ, the text used here matches the scan better in 24, and in the other 5 the difference is one letter.
 - `tools/check_repo.py` reads every version back from git on the day it took effect and on the day before and compares it with the corpus, whose hash is in `data/corpus.sha256`; it also checks the trailers, merge commits and future dates. [`REPRODUCE.md`](REPRODUCE.md) records that the checks were not yet run for this build and that no second build has been compared.
 - The sha256 of the page the text was parsed from is in `data/versions.json`. Part, chapter and section headings are not kept as files; each article keeps its number.
+- [vulnerabilities/](vulnerabilities/README.en.md): possible drafting mistakes in this law, found by global-law's detectors and checked by hand. Not run yet.
 
 ## What it does not show
 
@@ -77,6 +78,10 @@ The version is credited to the Constitution itself (`Constitution of Iraq 2005`,
 See [`LICENSE`](LICENSE). Iraq Copyright Law no. 3 of 1971, Article 6(3), excludes collections of official documents, such as the texts of laws, from protection, unless a collection is distinguished by originality, arrangement or other personal effort; the text here follows the Gazette, split only into one file per article. Lexifina's arrangement, tables, commit messages and tools are under CC BY 4.0.
 
 No AI model wrote, translated or corrected legal text; the scripts were written by an AI model (see [`REPRODUCE.md`](REPRODUCE.md)).
+
+## Visualisations
+
+- [visualisations/](visualisations/README.en.md): charts drawn from this repository. Not drawn yet.
 
 ## More
 
