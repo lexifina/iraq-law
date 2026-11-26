@@ -7,6 +7,7 @@ the Kurdistan Region. Years and numbers use Western digits. No folder holds more
 | --- | --- | --- |
 | `الدستور/` | The Constitution of 2005 | one article (`art-001.md`) |
 | `الوقائع-العراقية/<السنة>/<العدد>/` | Issues of al-Waqa'i al-Iraqiya, split into the instruments they publish | one instrument (`<NN>-<النوع>-<الرقم>.md`, NN = its order in the issue) |
+| `التشريعات/<السنة>/` | Federal and local laws, regulations, instructions, orders and decisions from free public secondary sources (first: the Iraqi Local Governance Law Library, iraq-lg-law.org, via Internet Archive copies); every commit says `Source-copy-status: secondary copy; verification against the official text pending` | one text (`<النوع>-<الرقم>-<الاسم>.md`) |
 | `القوانين-الاتحادية/<السنة>/` | Federal laws in force in the Kurdistan Region, as the Kurdistan Parliament's legislation base gives them | one law (`<الرقم>-<الاسم>.md`) |
 | `هەرێمی-کوردستان/یاساکان/<ساڵ>/` | Laws of the Kurdistan Parliament | one law (`<ژمارە>.md`) |
 | `هەرێمی-کوردستان/بڕیارە-یاساکان/<ساڵ>/` | Law-decisions | one decision |
@@ -24,6 +25,8 @@ the Kurdistan Region. Years and numbers use Western digits. No folder holds more
 - An instrument whose in-force day cannot be read is held, not committed.
 
 ## Sources
+
+- Secondary copies (`التشريعات/`): the Iraqi Local Governance Law Library (iraq-lg-law.org, now offline; read from Internet Archive copies); an instrument already in the repo from al-Waqa'i or legislation.krd is not taken again.
 
 - al-Waqa'i al-Iraqiya issue PDFs published by the Ministry of Justice (moj.gov.iq), 2012 onwards.
 - The Kurdistan Parliament's legislation base (legislation.krd): Kurdistan laws, law-decisions, instructions,
