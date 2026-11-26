@@ -11,9 +11,9 @@ The law of Iraq as a git history: one file per provision, one commit per version
 
 Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git history for every country's law: this is Iraq's national law, which global-law reads at `iraq/national/acts/`.
 
-**What is in it now:** the Constitution of the Republic of Iraq of 2005 in one version: its preamble and Articles 1 to 144 (145 provisions), as published in the Official Gazette (Al-Waqa'i' Al-Iraqiya no. 4012) on 28 December 2005. No statute, regulation, treaty or court decision is here yet. [`constitution/README.md`](constitution/README.md) lists every provision; [`REPRODUCE.md`](REPRODUCE.md) says how the files were made.
+**What is in it now:** the Constitution of the Republic of Iraq of 2005 in one version: its preamble and Articles 1 to 144 (145 provisions), as published in the Official Gazette (Al-Waqa'i' Al-Iraqiya no. 4012) on 28 December 2005. No statute, regulation, treaty or court decision is here yet. [`الدستور/README.md`](الدستور/README.md) lists every provision; [`REPRODUCE.md`](REPRODUCE.md) says how the files were made.
 
-Each act is a folder with one file per provision and one paragraph per line: `constitution/art-001.md` is Article 1 and `constitution/preamble.md` the preamble.
+Each act is a folder with one file per provision and one paragraph per line: `الدستور/art-001.md` is Article 1 and `الدستور/preamble.md` the preamble.
 
 The text is in Arabic, as the Gazette published it, with the vowel marks of the university copy (the Gazette prints them only in part). The English translations of the Constitution are not part of this record.
 
@@ -21,10 +21,10 @@ The text is in Arabic, as the Gazette published it, with the vowel marks of the 
 
 | Question | Command |
 | --- | --- |
-| Every change to Article 1 of the Constitution | `git log -p --word-diff -- constitution/art-001.md` |
-| Which act wrote each line of Article 1? | `git blame constitution/art-001.md` |
-| Every version of the Constitution, with the day each took effect | `git log --format="%h %(trailers:key=In-force,valueonly,separator=) %an" -- constitution ":^constitution/README.md"` |
-| Article 1 on 1 January 2026 | `python tools/on.py 2026-01-01 constitution art-001` |
+| Every change to Article 1 of the Constitution | `git log -p --word-diff -- الدستور/art-001.md` |
+| Which act wrote each line of Article 1? | `git blame الدستور/art-001.md` |
+| Every version of the Constitution, with the day each took effect | `git log --format="%h %(trailers:key=In-force,valueonly,separator=) %an" -- الدستور ":^الدستور/README.md"` |
+| Article 1 on 1 January 2026 | `python tools/on.py 2026-01-01 الدستور art-001` |
 
 **Outside git**, we also host this record publicly, for free:
 

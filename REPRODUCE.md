@@ -15,7 +15,7 @@ Every word of law in this repository comes from these sources. Lexifina reads th
 
 | Act | Title | Versions | Span |
 | --- | --- | ---: | --- |
-| `constitution` | دستور جمهورية العراق لعام 2005 | 1 | 2005-12-28 to 2005-12-28 |
+| `الدستور` | دستور جمهورية العراق لعام 2005 | 1 | 2005-12-28 to 2005-12-28 |
 
 The build made 1 commits:
 
