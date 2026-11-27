@@ -13,6 +13,7 @@ the Kurdistan Region. Years and numbers use Western digits. No folder holds more
 | `هەرێمی-کوردستان/بڕیارە-یاساکان/<ساڵ>/` | Law-decisions | one decision |
 | `هەرێمی-کوردستان/ڕێنماییەکان/<ساڵ>/` | Instructions | one instruction |
 | `هەرێمی-کوردستان/پەیڕەوەکان/<ساڵ>/` | Regulations | one regulation |
+| `الأحكام/<المحكمة>/<السنة>/<الشهر>/<اليوم>/` | Court decisions (محكمة-التمييز-الاتحادية, المحكمة-الاتحادية-العليا, محكمة-تمييز-إقليم-كوردستان, محكمة-استئناف-<المنطقة> sitting in cassation), one per decision, dated by the decision day | one decision (`قرار-<الرقم>.md`; the Federal Supreme Court's own English translations `قرار-<الرقم>-اتحادية-<السنة>.en.md`) |
 | `data/`, `tools/` | Tables, charts and the tools to read the history | |
 
 ## Versions and dates
@@ -23,6 +24,15 @@ the Kurdistan Region. Years and numbers use Western digits. No folder holds more
   the real day starts the subject.
 - Trailers on every commit: `Kind:`, `In-force:`, `In-force-basis:` and `Source:`.
 - An instrument whose in-force day cannot be read is held, not committed.
+
+## Court decisions
+
+- `الأحكام/` holds Iraqi court decisions, one file per decision, committed at 12:00 Baghdad time on the
+  decision day the decision or its record gives.
+- Sources so far are copies: the Higher Judicial Council's decision pages (hjc.iq) and the Federal Supreme
+  Court's PDFs (iraqfsc.iq) as captured by the Internet Archive, and mohamah.net; every commit says
+  `Source-copy-status: secondary copy; verification against the official text pending`.
+- Personal-status, juvenile, sexual-offence, honour and family decisions are not published here.
 
 ## Sources
 
