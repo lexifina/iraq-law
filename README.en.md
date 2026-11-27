@@ -11,11 +11,11 @@ The law of Iraq as a git history: one file per provision, one commit per version
 
 Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git history for every country's law: this is Iraq's national law, which global-law reads at `iraq/national/acts/`.
 
-**What is in it now:** the Constitution of the Republic of Iraq of 2005 in one version: its preamble and Articles 1 to 144 (145 provisions), as published in the Official Gazette (Al-Waqa'i' Al-Iraqiya no. 4012) on 28 December 2005. No statute, regulation, treaty or court decision is here yet. [`الدستور/README.md`](الدستور/README.md) lists every provision; [`REPRODUCE.md`](REPRODUCE.md) says how the files were made.
+**What is in it now:** the Constitution of 2005 (145 provisions); 1,804 federal laws, regulations, instructions and decisions from 1926 to 2021 (secondary copies from the Iraqi Local Governance Law Library); 300 issues of al-Waqa'i al-Iraqiya (2008-2026) with 282 instruments split out of them; 479 laws and law-decisions of the Kurdistan Region (1992-2022); and 66 court decisions. The Civil Code and the Penal Code are here only through their amending laws. [`STRUCTURE.md`](STRUCTURE.md) sets out the folders; [`REPRODUCE.md`](REPRODUCE.md) says how the first files were made.
 
 Each act is a folder with one file per provision and one paragraph per line: `الدستور/art-001.md` is Article 1 and `الدستور/preamble.md` the preamble.
 
-The text is in Arabic, as the Gazette published it, with the vowel marks of the university copy (the Gazette prints them only in part). The English translations of the Constitution are not part of this record.
+The texts are in Arabic, and in Kurdish (Sorani) for the Kurdistan Region, as their sources published them; the Constitution as the Gazette published it, with the vowel marks of the university copy (the Gazette prints them only in part). The English translations of the Constitution are not part of this record.
 
 ## Questions as git commands
 
